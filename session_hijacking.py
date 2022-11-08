@@ -5,7 +5,7 @@ import requests
 import json
 
 address = ('0.0.0.0', 80) # listenするipとportの設定
-host = 'http://192.168.56.106/' # listenするhost
+host = 'http://192.168.56.101/' # listenするhost
 
 class MyHTTPRequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):
